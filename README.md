@@ -1,24 +1,14 @@
 # MERN-Blog
 
-## Table of contents
-
-- [Introduction](#introduction)
-- [Demo](#demo)
-- [Features](#features)
-- [Technology](#technology)
-- [Database Models](#database)
-- [Run](#run)
-- [License](#license)
-
 ## Introduction
 
 A virtual blog application using the MERN stack (MongoDB, Express js, React js, and Node js).
 
 ## Demo
 
-![Image description](screenshot-1.png)
+![Image description](https://res.cloudinary.com/devdemo/image/upload/v1687734625/img_1_f7qe00.jpg)
 
-![Image description](screenshot-2.png)
+![Image description](https://res.cloudinary.com/devdemo/image/upload/v1687734624/img_2_i8czoy.jpg)
 
 This application is deployed on Heroku and can be accessed through the following link:
 
@@ -33,27 +23,6 @@ The main technologies used to build this application are:
 - Express.js version 4.17.1
 - React.js version 17.0.1
 - Antd, a React UI Framework, version 4.12.3
-
-## Features
-
-A blog app with the following features.
-
-Unlogged in users can do the following:
-
-- View all posts.
-- View one post's content by clicking on it.
-- View post's comments.
-- View any user's profile.
-- Signup.
-
-In addition to the above points, logged in users can do the following:
-
-- Login or logout.
-- Create a new post.
-- View/Edit/delete their posts.
-- Edit their user profile or password.
-- Add a new comment on a post.
-- View/Edit/Delete their comments.
 
 ## Database
 
