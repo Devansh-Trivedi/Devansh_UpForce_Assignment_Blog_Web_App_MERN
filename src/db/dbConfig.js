@@ -1,8 +1,8 @@
 import mongoose from "mongoose";
-
+import { MONGO_URI } from "../../config/keys";
 const connectDB = async () => {
   try {
-    const uri = process.env.MONGO_URI;
+    const uri = MONGO_URI;
     await mongoose
       .connect(uri, {
         useNewUrlParser: true,

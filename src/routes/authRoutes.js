@@ -5,6 +5,7 @@ import User from "./../models/user";
 import Strategy from "passport-local";
 const LocalStrategy = Strategy.Strategy;
 import jwt from "jsonwebtoken";
+import { SECRET_KEY } from "../../config/keys";
 
 const router = express.Router();
 
@@ -60,7 +61,7 @@ router.post("/login", async (req, res) => {
     };
     jwt.sign(
       payload,
-      process.env.SECRET_KEY,
+      SECRET_KEY,
       {
         expiresIn: 31556926, // 1 year in seconds
       },
