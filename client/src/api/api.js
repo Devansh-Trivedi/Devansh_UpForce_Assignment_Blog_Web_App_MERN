@@ -1,6 +1,6 @@
 import Axios from "axios";
 const axiosConfig = {
-  baseURL: `https://upforce-mern-web-app.onrender.com/`,
+  baseURL: `https://upforce-mern-web-app.onrender.com/api`,
 };
 
 const axios = Axios.create(axiosConfig);
