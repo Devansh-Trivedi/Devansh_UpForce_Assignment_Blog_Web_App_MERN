@@ -1,6 +1,6 @@
 import Axios from "axios";
 const axiosConfig = {
-  baseURL: `http://${window.location.hostname}:5000/api`,
+  baseURL: `https://mern-app-bmwk.onrender.com/api`,
 };
 
 const axios = Axios.create(axiosConfig);
